@@ -1,0 +1,209 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.viewport {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 0px;
+    top: -5px;
+    background: linear-gradient(105.79deg, rgba(103, 200, 212, 0.8) 4.43%, rgba(0, 71, 129, 0.8) 47.8%), url(/img/back.png);
+    background-size:100%;
+}
+
+.login_container {
+    position: relative;
+    display: flex;
+    top: 82px;
+    width: 1160px;
+    height: 378px;
+}
+
+.login_block {
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    width: 660px;
+    height: 378px;
+    left: 120px;
+    top: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0531481), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0425185), 0px 20px 13px rgba(0, 0, 0, 0.035), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0274815), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0168519);
+}
+
+h2 {
+    position: absolute;
+    width: 532px;
+    height: 76px;
+    left: 60px;
+    top: 48px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    color: #104781;
+}
+
+p {
+    position: absolute;
+    width: 447px;
+    height: 75px;
+    left: 64px;
+    top: 154px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    color: #104781;
+}
+
+.signin {
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    left: 60px;
+    top: 269px;
+    border: none;
+    border-radius: 10px;
+    background: #37DCF5;
+    color: #00345F;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+}
+
+.signup {
+    text-decoration: none;
+    position: absolute;
+    width: 176px;
+    height: 18px;
+    left: 240px;
+    top: 287px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;
+}
+
+.info_block {
+    position: absolute;
+    height: 378px;
+    width: 500px;
+    left: 780px;
+    padding: 0;
+}
+
+.nums {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #37DCF5;
+    margin: 20px;
+}
+
+.info_item_1 {
+    position: absolute;
+    width: 205px;
+    height: 90px;
+}
+
+.info_item_2 {
+    position: absolute;
+    width: 205px;
+    height: 90px;
+    left:242px;
+}
+
+.info_item_3 {
+    position: absolute;
+    width: 205px;
+    height: 90px;
+    top: 147px;
+}
+
+.info_item_4 {
+    position: absolute;
+    width: 205px;
+    height: 90px;
+    left: 242px;
+    top: 147px;
+}
+
+.color_text {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #37DCF5;
+}
+
+.heading {
+    position: absolute;
+    padding-left: 40px;
+    bottom: 20px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #FFFFFF;
+}
+
+.main_text {
+    position: absolute;
+    padding-top: 33px;
+    width: 218px;
+    height: 90px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+
+    color: #FFFFFF;
+    opacity: 0.8;
+}
