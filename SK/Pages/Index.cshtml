@@ -4,11 +4,38 @@
     ViewData["Title"] = "Home page";
 }
 
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hide()
+        })
+        $(document).ready(function () {
+            $(".stats_btn").click(function () {
+                $(".dropdown").slideToggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".stats_btn").click(function () {
+                $(".table").animate({
+                    top: "1583px"
+                });
+            });
+        });
+        $(document).ready(function () {
+            $(".stats_btn").click(function () {
+                $(".sort").animate({
+                    top: "1535px"
+                });
+            });
+        });
+    </script>
+}
+    
 <div class="viewport">
     <div class="login_container">
         <div class="login_block">
             <h2>Проводим собрания кредиторов в электронном формате</h2>
-            <p>Организация собраний кредиторов в Online и Offline режимах. Быстрый и удобный способ проведения собрания без лишних затрат</p>
+            <p class="login_text">Организация собраний кредиторов в Online и Offline режимах. Быстрый и удобный способ проведения собрания без лишних затрат</p>
             <button class="signin">Войти</button>
             <a class="signup" href="#">Зарегистрироваться</a>
         </div>
@@ -45,7 +72,16 @@
         <li class="stats_item">Участников: <b>0</b></li>
         <li class="stats_item">Организаторов: <b>0</b></li>
         <li class="stats_item">Проведено собраний: <b>0</b></li>
-        <li class="stats_item"><a  class="stats_btn" href="#"><b>Найти</b></a></li>
+        <li class="stats_item"><a  class="stats_btn"><b>Найти</b></a></li>
     </ul>
 </div>
 
+<div class="dropdown">
+
+</div>
+
+<p class="sort">Сортировать по <b>номеру</b></p>
+
+<div class="table">
+    <div class="table_item"></div>
+</div>

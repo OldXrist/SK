@@ -59,7 +59,7 @@ h2 {
     /* or 38px */
     color: #104781;
 }
-
+/*
 p {
     position: absolute;
     width: 447px;
@@ -71,7 +71,20 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
-    /* or 25px */
+    color: #104781;
+}
+*/
+.login_text {
+    position: absolute;
+    width: 447px;
+    height: 75px;
+    left: 64px;
+    top: 154px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
     color: #104781;
 }
 
@@ -115,12 +128,11 @@ p {
 
 .info_block {
     position: absolute;
-    height: 450px;
+    height: 378px;
     width: 500px;
-    left: 780px;    
-    top: -88px;
+    left: 780px;
     padding: 0;
-    overflow: hidden;
+    padding-left: 40px;
 }
 
 .info_item_1 {
@@ -133,7 +145,8 @@ p {
     position: absolute;
     width: 205px;
     height: 90px;
-    left:242px;
+    left: 242px;
+    padding-left: 40px;
 }
 
 .info_item_3 {
@@ -149,14 +162,17 @@ p {
     height: 90px;
     left: 242px;
     top: 147px;
+    padding-left: 40px;
 }
 
 .color_text {
+    width: 36px;
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
+    margin-top: 35px;
     /* identical to box height, or 18px */
 
 
@@ -180,7 +196,6 @@ p {
 
 .main_text {
     position: absolute;
-    padding-top: 33px;
     width: 218px;
     height: 90px;
     font-family: 'Exo 2';
@@ -228,6 +243,8 @@ p {
     /* identical to box height, or 18px */
     color: #406C9A;
     text-align: center;
+    padding-bottom: 30px;
+
 }
 
 .stats_head {
@@ -249,5 +266,55 @@ p {
     text-decoration: none;
     font-weight: 600;
     color: #406C9A;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    width: 1160px;
+    height: 557px;
+    left: 120px;
+    top: 948px;
+    background: #BAF3FC;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.table {
+    position: absolute;
+    height: 678px;
+    width: 1160px;
+    left: 120px;
+    top: 996px;
+}
+
+.table_item {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1160px;
+    height: 150px;
+    background: #E6FBFE;
+    opacity: 0.7;
+    border: 1px solid rgba(186, 243, 252, 0.5);
+    box-shadow: 0px 6px 12px rgba(16, 71, 129, 0.1);
+    border-radius: 15px;
+}
+
+.sort {
+    position: absolute;
+    padding-bottom: 30px;
+    width: 235px;
+    height: 18px;
+    left: 180px;
+    top: 948px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;
 }
 
