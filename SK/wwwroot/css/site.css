@@ -23,15 +23,14 @@ body {
     height: 650px;
     left: 0px;
     top: -5px;
-    background: linear-gradient(105.79deg, rgba(103, 200, 212, 0.8) 4.43%, rgba(0, 71, 129, 0.8) 47.8%), url(/img/back.png);
+    background: linear-gradient(105.79deg, rgba(103, 200, 212, 0.3) 4.43%, rgba(0, 71, 129, 0.3) 47.8%), url(/img/back.png);
     background-size:100%;
 }
 
 .login_container {
-    position: relative;
-    display: flex;
-    top: 82px;
-    width: 1160px;
+    position: absolute;
+    top: 165px;
+    width: 100%;
     height: 378px;
 }
 
@@ -42,7 +41,6 @@ body {
     width: 660px;
     height: 378px;
     left: 120px;
-    top: 88px;
     background: #FFFFFF;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0531481), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0425185), 0px 20px 13px rgba(0, 0, 0, 0.035), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0274815), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0168519);
 }
@@ -117,23 +115,12 @@ p {
 
 .info_block {
     position: absolute;
-    height: 378px;
+    height: 450px;
     width: 500px;
-    left: 780px;
+    left: 780px;    
+    top: -88px;
     padding: 0;
-}
-
-.nums {
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 100%;
-    /* identical to box height, or 18px */
-
-
-    color: #37DCF5;
-    margin: 20px;
+    overflow: hidden;
 }
 
 .info_item_1 {
@@ -176,7 +163,7 @@ p {
     color: #37DCF5;
 }
 
-.heading {
+.p_heading {
     position: absolute;
     padding-left: 40px;
     bottom: 20px;
@@ -207,3 +194,60 @@ p {
     color: #FFFFFF;
     opacity: 0.8;
 }
+
+.heading {
+    position: absolute;
+    width: 266px;
+    height: 38px;
+    left: 120px;
+    top: 740px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+
+    color: #104781;
+}
+
+.stats {
+    position: absolute;
+    width: 1160px;
+    height: 90px;
+    left: 120px;
+    top: 828px;
+    background: #BAF3FC;
+    border-radius: 15px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    color: #406C9A;
+    text-align: center;
+}
+
+.stats_head {
+    display: inline-block;
+    list-style: none;
+    font-weight: 600;
+    margin-right: 137px;
+}
+
+.stats_item {
+    display: inline-block;
+    list-style: none;
+    margin-top: 36px;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.stats_btn {
+    text-decoration: none;
+    font-weight: 600;
+    color: #406C9A;
+}
+

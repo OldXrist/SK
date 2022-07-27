@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manager\\Desktop\\SK\\SK\\SK\\SK.csproj",
+      "projectUniqueName": "C:\\Users\\manager\\Desktop\\SK\\SK\\SK.csproj",
       "projectName": "SK",
-      "projectPath": "C:\\Users\\manager\\Desktop\\SK\\SK\\SK\\SK.csproj",
+      "projectPath": "C:\\Users\\manager\\Desktop\\SK\\SK\\SK.csproj",
       "packagesPath": "C:\\Users\\manager\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manager\\Desktop\\SK\\SK\\SK\\obj\\",
+      "outputPath": "C:\\Users\\manager\\Desktop\\SK\\SK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manager\\AppData\\Roaming\\NuGet\\NuGet.Config",
