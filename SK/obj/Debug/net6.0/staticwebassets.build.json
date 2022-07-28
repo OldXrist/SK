@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "swJtgX66tqBmFx7cdzyhVeH8mkiW7rqecM6CFxiInSw=",
+  "Hash": "89wc1EDUfP+a/251OUCpzufIXoIvO0X5J3f+QfUNkGQ=",
   "Source": "SK",
   "BasePath": "_content/SK",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\img\\back.png"
     },
     {
+      "Identity": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\img\\down_arrow.svg",
+      "SourceId": "SK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\",
+      "BasePath": "_content/SK",
+      "RelativePath": "img/down_arrow.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\down_arrow.svg"
+    },
+    {
       "Identity": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\img\\Logo.svg",
       "SourceId": "SK",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\img\\lupa.svg",
+      "SourceId": "SK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\",
+      "BasePath": "_content/SK",
+      "RelativePath": "img/lupa.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\lupa.svg"
     },
     {
       "Identity": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\js\\site.js",

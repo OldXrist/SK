@@ -10,39 +10,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-none box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">SK</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="#">Главная</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="#">Реестр собраний</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="#">Помощь</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="#">Контакты</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    <div class="menu">
+        <ul>
+            <li class="logo"><a href="#"><img src="~/img/Logo.svg" /></a></li>
+            <li class="nav_item"><a>Главная</a></li>
+            <li class="nav_item"><a>Реестр собраний</a></li>
+            <li class="nav_item"><a>Помощь</a></li>
+            <li class="nav_item"><a>Контакты</a></li>
+            <li class="nav_item"><button class="nav_btn">Войти</button></li>
+            <li class="nav_item"><a>Зарегистрироваться</a></li>
+        </ul>
     </div>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
+
+    <div class="base">
+        <ul>
+            <li class="base_logo"><a href="#"><img src="~/img/Logo.svg" /></a></li>
+            <li class="base_item1"><a>Выйти</a></li>
+        </ul>
+        <ul>
+            <li class="base_item2">Главная</li>
+            <li class="base_item2">Реестр собраний</li>
+            <li class="base_item2">Помощь</li>
+            <li class="base_item2">Контакты</li>
+        </ul>
+        <p class="copyright">© 2011-2022 Оператор торговой площадки - ООО «ТендерСтандарт». Все права защищены.</p>
     </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
