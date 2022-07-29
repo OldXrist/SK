@@ -36,6 +36,13 @@
             });
         });
         $(document).ready(function () {
+            $(".stats_btn").click(function () {
+                $(".base_bg").animate({
+                    top: "2333px"
+                });
+            });
+        });
+        $(document).ready(function () {
             $(".cross").click(function () {
                 $(".dropdown").slideUp();
             });
@@ -61,10 +68,18 @@
                 });
             });
         });
+        $(document).ready(function () {
+            $(".cross").click(function () {
+                $(".base_bg").animate({
+                    top: "1748px"
+                });
+            });
+        });
     </script>
+
 }
-    
-<div class="viewport">
+<div class="content">
+<div class="viewport"></div>
     <div class="login_container">
         <div class="login_block">
             <h2>Проводим собрания кредиторов в электронном формате</h2>
@@ -95,160 +110,173 @@
             </div>
         </div>
     </div>
+
+    <p class="heading">Реестр собраний</p>
+
+    <div class="stats">
+        <ul>
+            <li class="stats_head">Общая статистика</li>
+            <li class="stats_item">Участников: <b>0</b></li>
+            <li class="stats_item">Организаторов: <b>0</b></li>
+            <li class="stats_item">Проведено собраний: <b>0</b></li>
+            <li class="stats_item"><a  class="stats_btn"><b>Найти</b><img src="~/img/lupa.svg" /></a></li>
+        </ul>
+    </div>
+
+    <form class="dropdown">
+        <div>
+            <p class="drop_h">Поиск собрания</p>
+            <img src="~/img/cross.png" class="cross" />
+        </div>
+        <ul class="form_gr1">
+            <li class="form_text">Номер собрания</li>
+            <li><input type="text" placeholder="Номер собрания" class="placeh" /></li>
+        </ul>
+        <ul class="form_gr2">
+            <li class="form_text">Должник</li>
+            <li><input type="text" placeholder="Должник" class="placeh"/></li>
+        </ul>
+        <ul class="form3">
+            <li class="form_text">Организатор собрания (Арбитражный управляющий или кредитор)</li>
+            <li><input type="text" placeholder="Организатор собрания (Арбитражный управляющий или кредитор)" class="placeh" /></li>
+        </ul>
+        <ul class="form_gr3">
+            <li class="form_text">Даты приема заявок</li>
+            <li class="date_f"><a>с</a><input type="text" placeholder="00.00.0000" class="placeh" /></li>
+            <li class="date_f"><a>по</a><input type="text" placeholder="00.00.0000" class="placeh" /></li>
+        </ul>
+        <ul class="form_gr4">
+            <li class="form_text">Статус</li>
+            <li><input type="text" placeholder="Не выбрано" class="placeh" /></li>
+        </ul>
+        <ul class="form_gr4">
+            <li class="form_text">Тип собрания</li>
+            <li><input type="text" placeholder="Не выбрано" class="placeh" /></li>
+        </ul>
+        <input type="submit" value="Поиск" class="srch_btn" />
+    </form>
+
+    <p class="sort">Сортировать по <b>номеру</b><img src="~/img/down_arrow.svg" /></p>
+
+    <div class="table">
+        <div class="table_item">
+            <h3 class="table_h">1013 Очное</h3>
+            <ul class="table_data">
+                <li class="thin_text">Организатор</li>
+                <li>ООО «Право-Торг»</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Должник</li>
+                <li>Бальдяева Юлия Александровна</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Статус</li>
+                <li>Отменено Органзатором</li>
+            </ul>
+            <div class="vl"></div>
+            <div class="date">
+                <ul class="datetime">
+                    <li class="thin_text">Дата проведения собрания</li>
+                    <li>29.04.2022 14:00</li>
+                </ul>
+                <ul class="datetime">
+                    <li class="thin_text">Даты приема заявок</li>
+                    <li>14.04.2022 - 28.04.2022 </li>
+                </ul>
+            </div>
+        </div>
+        <div class="table_item">
+            <h3 class="table_h">1013 Очное</h3>
+            <ul class="table_data">
+                <li class="thin_text">Организатор</li>
+                <li>ООО «Право-Торг»</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Должник</li>
+                <li>Бальдяева Юлия Александровна</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Статус</li>
+                <li>Отменено Органзатором</li>
+            </ul>
+            <div class="vl"></div>
+            <div class="date">
+                <ul class="datetime">
+                    <li class="thin_text">Дата проведения собрания</li>
+                    <li>29.04.2022 14:00</li>
+                </ul>
+                <ul class="datetime">
+                    <li class="thin_text">Даты приема заявок</li>
+                    <li>14.04.2022 - 28.04.2022 </li>
+                </ul>
+            </div>
+        </div>
+        <div class="table_item">
+            <h3 class="table_h">1013 Очное</h3>
+            <ul class="table_data">
+                <li class="thin_text">Организатор</li>
+                <li>ООО «Право-Торг»</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Должник</li>
+                <li>Бальдяева Юлия Александровна</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Статус</li>
+                <li>Отменено Органзатором</li>
+            </ul>
+            <div class="vl"></div>
+            <div class="date">
+                <ul class="datetime">
+                    <li class="thin_text">Дата проведения собрания</li>
+                    <li>29.04.2022 14:00</li>
+                </ul>
+                <ul class="datetime">
+                    <li class="thin_text">Даты приема заявок</li>
+                    <li>14.04.2022 - 28.04.2022 </li>
+                </ul>
+            </div>
+        </div>
+        <div class="table_item">
+            <h3 class="table_h">1013 Очное</h3>
+            <ul class="table_data">
+                <li class="thin_text">Организатор</li>
+                <li>ООО «Право-Торг»</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Должник</li>
+                <li>Бальдяева Юлия Александровна</li>
+            </ul>
+            <ul class="table_data">
+                <li class="thin_text">Статус</li>
+                <li>Отменено Органзатором</li>
+            </ul>
+            <div class="vl"></div>
+            <div class="date">
+                <ul class="datetime">
+                    <li class="thin_text">Дата проведения собрания</li>
+                    <li>29.04.2022 14:00</li>
+                </ul>
+                <ul class="datetime">
+                    <li class="thin_text">Даты приема заявок</li>
+                    <li>14.04.2022 - 28.04.2022 </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="base_bg"></div>
+    <div class="base">
+        <ul>
+            <li class="base_logo"><a href="#"><img src="~/img/Logo.svg" /></a></li>
+            <li class="base_item1"><a>Выйти</a></li>
+        </ul>
+        <ul class="base_links">
+            <li class="base_item2">Главная</li>
+            <li class="base_item2">Реестр собраний</li>
+            <li class="base_item2">Помощь</li>
+            <li class="base_item2">Контакты</li>
+        </ul>
+        <p class="copyright">© 2011-2022 Оператор торговой площадки - ООО «ТендерСтандарт». Все права защищены.</p>
+    </div>
 </div>
-
-<h2 class="heading">Реестр собраний</h2>
-
-<div class="stats">
-    <ul>
-        <li class="stats_head">Общая статистика</li>
-        <li class="stats_item">Участников: <b>0</b></li>
-        <li class="stats_item">Организаторов: <b>0</b></li>
-        <li class="stats_item">Проведено собраний: <b>0</b></li>
-        <li class="stats_item"><a  class="stats_btn"><b>Найти</b><img src="~/img/lupa.svg" /></a></li>
-    </ul>
-</div>
-
-<form class="dropdown">
-    <div>
-        <p class="drop_h">Поиск собрания</p>
-        <img src="~/img/cross.png" class="cross" />
-    </div>
-    <ul class="form_gr1">
-        <li class="form_text">Номер собрания</li>
-        <li><input type="text" placeholder="Номер собрания" class="placeh" /></li>
-    </ul>
-    <ul class="form_gr2">
-        <li class="form_text">Должник</li>
-        <li><input type="text" placeholder="Должник" class="placeh"/></li>
-    </ul>
-    <ul class="form3">
-        <li class="form_text">Организатор собрания (Арбитражный управляющий или кредитор)</li>
-        <li><input type="text" placeholder="Организатор собрания (Арбитражный управляющий или кредитор)" class="placeh" /></li>
-    </ul>
-    <ul class="form_gr3">
-        <li class="form_text">Даты приема заявок</li>
-        <li class="date_f"><a>с</a><input type="text" placeholder="00.00.0000" class="placeh" /></li>
-        <li class="date_f"><a>по</a><input type="text" placeholder="00.00.0000" class="placeh" /></li>
-    </ul>
-    <ul class="form_gr4">
-        <li class="form_text">Статус</li>
-        <li><input type="text" placeholder="Не выбрано" class="placeh" /></li>
-    </ul>
-    <ul class="form_gr4">
-        <li class="form_text">Тип собрания</li>
-        <li><input type="text" placeholder="Не выбрано" class="placeh" /></li>
-    </ul>
-    <input type="submit" value="Поиск" class="srch_btn" />
-</form>
-
-<p class="sort">Сортировать по <b>номеру</b><img src="~/img/down_arrow.svg" /></p>
-
-<div class="table">
-    <div class="table_item">
-        <h3 class="table_h">1013 Очное</h3>
-        <ul class="table_data">
-            <li class="thin_text">Организатор</li>
-            <li>ООО «Право-Торг»</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Должник</li>
-            <li>Бальдяева Юлия Александровна</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Статус</li>
-            <li>Отменено Органзатором</li>
-        </ul>
-        <div class="vl"></div>
-        <div class="date">
-            <ul class="datetime">
-                <li class="thin_text">Дата проведения собрания</li>
-                <li>29.04.2022 14:00</li>
-            </ul>
-            <ul class="datetime">
-                <li class="thin_text">Даты приема заявок</li>
-                <li>14.04.2022 - 28.04.2022 </li>
-            </ul>
-        </div>
-    </div>
-    <div class="table_item">
-        <h3 class="table_h">1013 Очное</h3>
-        <ul class="table_data">
-            <li class="thin_text">Организатор</li>
-            <li>ООО «Право-Торг»</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Должник</li>
-            <li>Бальдяева Юлия Александровна</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Статус</li>
-            <li>Отменено Органзатором</li>
-        </ul>
-        <div class="vl"></div>
-        <div class="date">
-            <ul class="datetime">
-                <li class="thin_text">Дата проведения собрания</li>
-                <li>29.04.2022 14:00</li>
-            </ul>
-            <ul class="datetime">
-                <li class="thin_text">Даты приема заявок</li>
-                <li>14.04.2022 - 28.04.2022 </li>
-            </ul>
-        </div>
-    </div>
-    <div class="table_item">
-        <h3 class="table_h">1013 Очное</h3>
-        <ul class="table_data">
-            <li class="thin_text">Организатор</li>
-            <li>ООО «Право-Торг»</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Должник</li>
-            <li>Бальдяева Юлия Александровна</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Статус</li>
-            <li>Отменено Органзатором</li>
-        </ul>
-        <div class="vl"></div>
-        <div class="date">
-            <ul class="datetime">
-                <li class="thin_text">Дата проведения собрания</li>
-                <li>29.04.2022 14:00</li>
-            </ul>
-            <ul class="datetime">
-                <li class="thin_text">Даты приема заявок</li>
-                <li>14.04.2022 - 28.04.2022 </li>
-            </ul>
-        </div>
-    </div>
-    <div class="table_item">
-        <h3 class="table_h">1013 Очное</h3>
-        <ul class="table_data">
-            <li class="thin_text">Организатор</li>
-            <li>ООО «Право-Торг»</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Должник</li>
-            <li>Бальдяева Юлия Александровна</li>
-        </ul>
-        <ul class="table_data">
-            <li class="thin_text">Статус</li>
-            <li>Отменено Органзатором</li>
-        </ul>
-        <div class="vl"></div>
-        <div class="date">
-            <ul class="datetime">
-                <li class="thin_text">Дата проведения собрания</li>
-                <li>29.04.2022 14:00</li>
-            </ul>
-            <ul class="datetime">
-                <li class="thin_text">Даты приема заявок</li>
-                <li>14.04.2022 - 28.04.2022 </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-
