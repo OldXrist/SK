@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "89wc1EDUfP+a/251OUCpzufIXoIvO0X5J3f+QfUNkGQ=",
+  "Hash": "hrwWoJsgxZ610jVT7Rq3r1M8liNv9AzSHr6ZPZ5aWVw=",
   "Source": "SK",
   "BasePath": "_content/SK",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\back.png"
+    },
+    {
+      "Identity": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\img\\cross.png",
+      "SourceId": "SK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\",
+      "BasePath": "_content/SK",
+      "RelativePath": "img/cross.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cross.png"
+    },
+    {
+      "Identity": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\img\\cross.svg",
+      "SourceId": "SK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\",
+      "BasePath": "_content/SK",
+      "RelativePath": "img/cross.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cross.svg"
     },
     {
       "Identity": "C:\\Users\\manager\\Desktop\\SK\\SK\\wwwroot\\img\\down_arrow.svg",

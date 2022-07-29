@@ -11,7 +11,7 @@
         })
         $(document).ready(function () {
             $(".stats_btn").click(function () {
-                $(".dropdown").slideToggle();
+                $(".dropdown").slideDown();
             });
         });
         $(document).ready(function () {
@@ -32,6 +32,32 @@
             $(".stats_btn").click(function () {
                 $(".base").animate({
                     top: "2333px"
+                });
+            });
+        });
+        $(document).ready(function () {
+            $(".cross").click(function () {
+                $(".dropdown").slideUp();
+            });
+        });
+        $(document).ready(function () {
+            $(".cross").click(function () {
+                $(".table").animate({
+                    top: "996px"
+                });
+            });
+        });
+        $(document).ready(function () {
+            $(".cross").click(function () {
+                $(".sort").animate({
+                    top: "948px"
+                });
+            });
+        });
+        $(document).ready(function () {
+            $(".cross").click(function () {
+                $(".base").animate({
+                    top: "1748px"
                 });
             });
         });
@@ -83,34 +109,38 @@
     </ul>
 </div>
 
-<div class="dropdown">
-    <h3>Поиск собрания</h3>
+<form class="dropdown">
+    <div>
+        <p class="drop_h">Поиск собрания</p>
+        <img src="~/img/cross.png" class="cross" />
+    </div>
     <ul class="form_gr1">
         <li class="form_text">Номер собрания</li>
-        <li><input type="text" placeholder="Номер собрания" /></li>
+        <li><input type="text" placeholder="Номер собрания" class="placeh" /></li>
     </ul>
     <ul class="form_gr2">
         <li class="form_text">Должник</li>
-        <li><input type="text" placeholder="Должник" /></li>
+        <li><input type="text" placeholder="Должник" class="placeh"/></li>
     </ul>
     <ul class="form3">
         <li class="form_text">Организатор собрания (Арбитражный управляющий или кредитор)</li>
-        <li><input type="text" placeholder="Организатор собрания (Арбитражный управляющий или кредитор)" /></li>
+        <li><input type="text" placeholder="Организатор собрания (Арбитражный управляющий или кредитор)" class="placeh" /></li>
     </ul>
     <ul class="form_gr3">
         <li class="form_text">Даты приема заявок</li>
-        <li>с<input type="text" placeholder="00.00.0000" /></li>
-        <li>по<input type="text" placeholder="00.00.0000" /></li>
+        <li class="date_f"><a>с</a><input type="text" placeholder="00.00.0000" class="placeh" /></li>
+        <li class="date_f"><a>по</a><input type="text" placeholder="00.00.0000" class="placeh" /></li>
     </ul>
     <ul class="form_gr4">
         <li class="form_text">Статус</li>
-        <li><input type="text" placeholder="Не выбрано" /></li>
+        <li><input type="text" placeholder="Не выбрано" class="placeh" /></li>
     </ul>
-    <ul class="form_gr5">
+    <ul class="form_gr4">
         <li class="form_text">Тип собрания</li>
-        <li><input type="text" placeholder="Не выбрано" /></li>
+        <li><input type="text" placeholder="Не выбрано" class="placeh" /></li>
     </ul>
-</div>
+    <input type="submit" value="Поиск" class="srch_btn" />
+</form>
 
 <p class="sort">Сортировать по <b>номеру</b><img src="~/img/down_arrow.svg" /></p>
 
